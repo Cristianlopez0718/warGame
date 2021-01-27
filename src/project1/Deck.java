@@ -20,7 +20,7 @@ public class Deck {
 			for (int x = 1; x <= 13; x++) { //Iterate over the values in a deck of cards
 				Card card = new Card();
 				card.value = x;
-				switch (i) {
+				switch (i) {  //switch statement to create the 4 suits for the cards
 					case 0: 
 						card.suit = "Harts";
 						break;

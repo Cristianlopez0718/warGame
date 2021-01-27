@@ -7,10 +7,11 @@ import java.util.Scanner;
 public class warTester {
 
     public static void main(String[] args) {
+        System.out.println("Were going to start playing the war game using java");
 
-        Hands hand = new Hands();
+        Hands hand = new Hands();  // creates a deck of cards to play
 
-        hand.CreateUserHand();
+        hand.CreateUserHand(); //
         hand.CreateCpuHand();
         Scanner scanner = new Scanner(System.in);
 
